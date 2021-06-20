@@ -4,6 +4,12 @@ Jobs
 ===============
 */
 
+.job-section {
+  width: 80vw;
+  height: 65vh;
+  margin: auto;
+}
+
 .job-center {
   width: 80vw;
   margin: 0 auto;
@@ -95,6 +101,10 @@ Jobs
 }
 
 @media screen and (max-width: 450px) {
+  .job-section {
+    height: auto;
+    margin-bottom: 5rem;
+  }
   .job-center {
     width: 75vw;
   }

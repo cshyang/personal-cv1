@@ -4,11 +4,11 @@ import data from "./data";
 import "./Jobs.css";
 
 function Jobs() {
-  const [jobs, setJob] = useState(data);
+  const jobs = data;
   const [value, setValue] = useState(1);
 
   return (
-    <section className="section" id="job">
+    <section className="job-section" id="job">
       <div className="title">
         <h2>Journey</h2>
         <div className="underline"></div>
@@ -18,7 +18,7 @@ function Jobs() {
           {jobs.map((job, index) => (
             <button
               key={job.id}
-              className={`job-btn ${index == value && "active-btn"}`}
+              className={`job-btn ${index === value && "active-btn"}`}
               onClick={() => setValue(index)}
             >
               {job.company}
