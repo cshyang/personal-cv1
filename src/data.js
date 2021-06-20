@@ -34,7 +34,7 @@ const jobs = [
     company: "Artefact",
     duties: [
       "Executing Google Tag Manager deployment & websites tagging for global clients covering 40+ websites across 8 countries.",
-      "Discover insights by running Machine Learning algorithm ans SQL Analysis",
+      "Discover insights by running Machine Learning algorithm and SQL Analysis",
       "Discover actionable insights and develop hypothesis",
       "Designed and developed the dashboards visualizing a holistic view of metrics and KPIs.",
       "Running cross-channel campaigns (Google, FB, IG, Linkedin, Yahoo Japan, Naver) for a set of global and regional clients and driving performance campaigns (leads, conversions)",
