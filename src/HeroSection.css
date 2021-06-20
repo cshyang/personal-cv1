@@ -2,6 +2,7 @@
   height: 90vh;
   width: 100%;
   background-color: #e1ebe8;
+  z-index: -99;
 }
 
 .hero-container {
@@ -43,6 +44,12 @@
 @media screen and (min-width: 992px) {
   .hero-backgroud-img {
     height: 65%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-backgroud-img {
+    height: 50%;
   }
 }
 

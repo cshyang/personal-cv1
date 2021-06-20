@@ -51,6 +51,7 @@ Global Styles
 ===============
 */
 html {
+  position: relative;
   scroll-behavior: smooth;
 }
 
@@ -199,8 +200,10 @@ Footer
 ===============
 */
 .footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  height: 13vh;
+  height: auto;
   margin: auto;
   background: var(--clr-primary-4);
 }
