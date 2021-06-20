@@ -93,3 +93,20 @@ Jobs
     box-shadow: -2px 0 var(--clr-primary-5);
   }
 }
+
+@media screen and (max-width: 450px) {
+  .job-center {
+    width: 75vw;
+  }
+  .job-btn {
+    font-size: 85%;
+  }
+
+  .job-info > h3 {
+    font-size: 90%;
+  }
+
+  .job-info > h4 {
+    font-size: 80%;
+  }
+}
