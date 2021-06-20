@@ -1,0 +1,72 @@
+const jobs = [
+  {
+    id: 1,
+    order: 5,
+    title: "Consultant",
+    dates: "December 2020 - Present",
+    company: "Deloitte Digital",
+    duties: [
+      "Lead analytics function and strategies with clients.",
+      "Design and implemented CRM lifecycle segmentation to be part of the client’s customer loyalty program and optimized the relevancy of journey targeting.",
+      "Work independently or as part of a team to design and develop analytics/reporting solutions using PowerBI.Design and develop ETL processes using Microsoft Azure Data Factory.",
+    ],
+  },
+  {
+    id: 2,
+    order: 4,
+    title: "Market Analyst, Lead MY",
+    dates: "January 2019 - December 2020",
+    company: "Grab",
+    duties: [
+      "Lead analytic function in Grab Marketing Malaysia, the go-to person for data questions and data reconciliation needs in the marketing team.",
+      "Develop multi-touch attribution models to optimize marketing efforts across channels.",
+      "Data mining, making sense disparate or converged datasets and transforming them into compelling stories.",
+      "Set up campaign analysis SOP and deliver rich insights for the marketeers and business stakeholders. Automated campaign analysis process that successfully reduced operational efforts and time consumption by 70%.",
+      "Building user-focused reports and dashboards using Tableau and Holistic.io to provide daily business/campaign insights and reporting.",
+      "Convert data into actionable insights. Work with vertical leads(GrabFood, GrabPay, GrabCar) to ensure alignment of user segmentation and targeting with strategic objectives.",
+    ],
+  },
+  {
+    id: 3,
+    order: 3,
+    title: "Analytics Consultant",
+    dates: "July 2017 - November 2019",
+    company: "Artefact",
+    duties: [
+      "Executing Google Tag Manager deployment & websites tagging for global clients covering 40+ websites across 8 countries.",
+      "Discover insights by running Machine Learning algorithm ans SQL Analysis",
+      "Discover actionable insights and develop hypothesis",
+      "Designed and developed the dashboards visualizing a holistic view of metrics and KPIs.",
+      "Running cross-channel campaigns (Google, FB, IG, Linkedin, Yahoo Japan, Naver) for a set of global and regional clients and driving performance campaigns (leads, conversions)",
+      "Responsible for ensuring a smooth running of clients' campaign including effective budget control, strategy planning, and media plan & budget planning.",
+    ],
+  },
+  {
+    id: 4,
+    order: 2,
+    title: "Digital Media Analyst",
+    dates: "March 2016 - May 2017",
+    company: "Persuasion Tech",
+    duties: [
+      "Developed and executed project plans, procedures, and sets measurable campaigns KPI.",
+      "Run A/B on websites and campaigns and develop digital marketing playbook for clients.",
+      "Developed digital strategies and business/campaign funnels.",
+      "Monitored and optimized marketing campaigns across various platforms (Facebook, Instagram, Google Adwords, LinkedIn)",
+      "Reduced campaigns CPL/CPA by 30% using data-driven optimization tactics ( A/B testing landing pages, audience targeting, ad copies, campaign optimization methods, and attribution models)",
+      "Identified actionable insights and business funnels through customers clustering analysis.",
+    ],
+  },
+  {
+    id: 5,
+    order: 1,
+    title: "Google Ads Specialist",
+    dates: "August 2015 - February 2016",
+    company: "Exabytes",
+    duties: [
+      "Responsible to manage and optimize Google Paid Advertising ( Google Search, Display & YouTube).",
+      "Implement different optimization techniques, components including but not limited to - average CPC, Cost/Conv, Ad Copy, improve market share, Remarketing and Upselling.",
+      "Analyze account performance with Google AdWords and Google Analytics reports and perform optimization.",
+    ],
+  },
+];
+export default jobs;

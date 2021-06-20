@@ -1,0 +1,44 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background: var(--clr-primary-4);
+  transition-timing-function: ease-in;
+  transition: all 0.4s ease;
+  z-index: 999;
+  opacity: 90%;
+}
+
+.navbar-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-icon {
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-size: large;
+  margin: 0px;
+}
+
+.nav-item > a {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  color: #ffff;
+  font-size: 15px;
+}
+
+.nav-item :hover {
+  transition: all 0.2s ease;
+  border-bottom: 2px solid white;
+}

@@ -1,0 +1,47 @@
+.hero-section {
+  height: 90vh;
+  width: 100%;
+  background-color: #e1ebe8;
+}
+
+.hero-container {
+  position: relative;
+  width: 90vw;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-backgroud-img {
+  object-fit: cover;
+  width: auto;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.intro h1 {
+  font-family: "Sacramento", cursive;
+  color: var(--clr-primary-5);
+}
+
+.intro p {
+  font-family: Montserrat, cursive;
+  color: var(--clr-primary-5);
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .hero-backgroud-img {
+    height: 65%;
+  }
+}

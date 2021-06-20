@@ -1,0 +1,40 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  width: 380px;
+  max-height: 360px;
+  margin: 1.5rem auto;
+  padding: 0;
+  border: transparent;
+  border-radius: 5%;
+  background: #ffff;
+  box-shadow: 5px 8px 5px var(--clr-primary-3);
+}
+
+.img-container {
+  width: 90%;
+  height: 60%;
+  margin: 0px auto;
+}
+
+.job-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-content {
+  text-align: center;
+  margin: 1rem 0px;
+}
+
+.skill-content > h4 {
+  font-weight: 800;
+}
+
+@media screen and (min-width: 992px) {
+  .card-container {
+    max-height: 400px;
+  }
+}

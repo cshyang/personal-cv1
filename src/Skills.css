@@ -1,0 +1,31 @@
+.skill-section {
+  background: var(--clr-primary-5);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skill-section .title {
+  color: #ffff;
+  padding-top: 3rem;
+  margin: 0px 0px 3rem 0px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  width: 90vm;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.fade-top {
+  height: 2rem;
+  background-image: linear-gradient(#ffff, var(--clr-primary-5));
+}
+
+.fade-btm {
+  height: 2rem;
+  background-image: linear-gradient(var(--clr-primary-5), #ffff);
+}
