@@ -1,17 +1,14 @@
 import React from "react";
 import "./Avatar.css";
 import { FaQuoteRight } from "react-icons/fa";
+import shyang2 from "./images/shyang2.png";
 
 function Avatar() {
   return (
     <section className="avatar-section">
       <div className="avatar-container">
         <div className="profile-img-container">
-          <img
-            src="images/shyang2.png"
-            alt="profile-img"
-            className="profile-img"
-          />
+          <img src={shyang2} alt="profile-img" className="profile-img" />
           <span className="quote-icon">
             <FaQuoteRight />
           </span>

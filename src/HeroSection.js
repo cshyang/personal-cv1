@@ -1,12 +1,13 @@
 import React from "react";
 import "./HeroSection.css";
+import landImg from "./images/land.svg";
 
 function HeroSection() {
   return (
     <section className="hero-section" id="hero-section">
       <div className="hero-container">
         <img
-          src="/images/land.svg"
+          src={landImg}
           alt="background-img"
           className="hero-backgroud-img"
         />
