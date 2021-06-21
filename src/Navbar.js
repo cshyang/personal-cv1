@@ -5,8 +5,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-container">
-        <h4 className="nav-icon">Cshyang</h4>
-        {/* <a href="#hero-section">
+        <a href="#hero-section">
           <h4 className="nav-icon">Cshyang</h4>
         </a>
         <ul className="nav-menu">
@@ -16,7 +15,7 @@ function Navbar() {
           <li className="nav-item">
             <a href="#job">My Journey</a>
           </li>
-        </ul> */}
+        </ul>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@
   transition-timing-function: ease-in;
   transition: all 0.4s ease;
   z-index: 999;
-  opacity: 90%;
+  opacity: 0.95;
 }
 
 .navbar-container {
