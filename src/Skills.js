@@ -8,7 +8,6 @@ import analysisImg from "./images/analysis.svg";
 function Skills() {
   return (
     <section className="skill-section" id="skill">
-      <div className="fade-top"></div>
       <div className="title">
         <h2>What can I do</h2>
         <div className="underline-white"></div>
@@ -30,7 +29,6 @@ function Skills() {
           img={marketingImg}
         />
       </div>
-      <div className="fade-btm"></div>
     </section>
   );
 }
