@@ -31,8 +31,10 @@
 }
 
 .intro h1 {
-  font-family: "Sacramento", cursive;
+  font-family: "Lato", cursive;
+  text-align: center;
   color: var(--clr-primary-5);
+  margin-top: 5rem;
 }
 
 .intro p {
@@ -63,8 +65,8 @@
   }
 
   .intro h1 {
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 3rem;
+    margin-top: 1.5rem;
   }
 
   .intro p {
