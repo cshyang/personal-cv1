@@ -1,9 +1,9 @@
-import React from "react";
-import "./Skills.css";
-import SkillCard from "./SkillCard";
-import marketingImg from "./images/marketing.svg";
-import webDevelopmentImg from "./images/web_development.svg";
-import analysisImg from "./images/analysis.svg";
+import React from 'react'
+import './Skills.css'
+import SkillCard from './SkillCard'
+import marketingImg from './images/marketing.svg'
+import webDevelopmentImg from './images/web_development.svg'
+import analysisImg from './images/analysis.svg'
 
 function Skills() {
   return (
@@ -30,7 +30,7 @@ function Skills() {
         />
       </div>
     </section>
-  );
+  )
 }
 
-export default Skills;
+export default Skills

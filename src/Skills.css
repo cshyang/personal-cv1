@@ -1,10 +1,10 @@
 .skill-section {
-  background: var(--clr-primary-5);
-  background: linear-gradient(
+  background: rgba(148, 187, 233, 1);
+  /* background: linear-gradient(
     90deg,
     var(--clr-primary-5) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+    rgba(148, 187, 233, 1) 100% 
+  );*/
   width: 100%;
   margin: 0 auto;
   padding-bottom: 2rem;
