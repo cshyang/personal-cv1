@@ -14,7 +14,7 @@ function HeroSection() {
         <div className="intro">
           <h1>Hi, I am Shyang.</h1>
           <p class="data-analyst">
-            a <u>coder</u> / <u>data analyst</u>
+            a <u>data product manager</u>
           </p>
         </div>
       </div>

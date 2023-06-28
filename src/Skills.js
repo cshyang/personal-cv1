@@ -1,9 +1,9 @@
-import React from 'react'
-import './Skills.css'
-import SkillCard from './SkillCard'
-import marketingImg from './images/marketing.svg'
-import webDevelopmentImg from './images/web_development.svg'
-import analysisImg from './images/analysis.svg'
+import React from "react";
+import "./Skills.css";
+import SkillCard from "./SkillCard";
+import marketingImg from "./images/marketing.png";
+import prouctManagerImg from "./images/product-manager.png";
+import analysisImg from "./images/data-analytics.png";
 
 function Skills() {
   return (
@@ -14,9 +14,9 @@ function Skills() {
       </div>
       <div className="skills">
         <SkillCard
-          title="web development"
-          text="Proficient in React.js and can help you to build beautiful websites and apps."
-          img={webDevelopmentImg}
+          title="Product Manager"
+          text="Solve challenging product problems and improve products with data decision making."
+          img={prouctManagerImg}
         />
         <SkillCard
           title="Data Analytics"
@@ -30,7 +30,7 @@ function Skills() {
         />
       </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

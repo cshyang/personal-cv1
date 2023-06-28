@@ -1,14 +1,39 @@
 const jobs = [
   {
     id: 1,
+    order: 7,
+    title: "Data Lead",
+    dates: "OCT 2022  - Present",
+    company: "BioMark",
+    duties: [
+      "Oversee the data team, develop data pipelines, construct data warehouses, and provide data-oriented business direction.",
+      "Design data infrastructure and onboard tools to automate data transfer from multiple sources and ensure data integrity.",
+      "Prioritize the data product backlogs and user stories.",
+    ],
+  },
+  {
+    id: 2,
+    order: 6,
+    title: "AI Product Manager",
+    dates: "September 2021 - October 2022",
+    company: "MoneyLion",
+    duties: [
+      "Led the AI and data science functions for MoneyLion Marketplace and Feed. Identify product focus and AI strategy solutions aligned with the company's strategic vision.",
+      "Develop hypotheses on potential product improvements and conduct A/B tests to back-up product decision-making. Collaborated with data scientists to design statistical testing to optimize product features.",
+      "Prioritize backlogs and provide regular outcomes updates to stakeholders and other business units.",
+    ],
+  },
+  {
+    id: 3,
     order: 5,
     title: "Consultant",
-    dates: "December 2020 - Present",
+    dates: "December 2020 - September 2021",
     company: "Deloitte Digital",
     duties: [
-      "Lead analytics function and strategies with clients.",
-      "Design and implemented CRM lifecycle segmentation to be part of the client’s customer loyalty program and optimized the relevancy of journey targeting.",
-      "Work independently or as part of a team to design and develop analytics/reporting solutions using PowerBI.Design and develop ETL processes using Microsoft Azure Data Factory.",
+      "Analyzed and interpreted app users' behavior to develop customer lifecycle.",
+      "Build and maintain scalable ETL pipelines using Azure Data Factory.",
+      "Developed and presented recommendations to senior leadership on how to improve operations.",
+      "Created comprehensive reports for executive decision-making.",
     ],
   },
   {
@@ -18,12 +43,10 @@ const jobs = [
     dates: "January 2019 - December 2020",
     company: "Grab",
     duties: [
-      "Lead analytic function in Grab Marketing Malaysia, the go-to person for data questions and data reconciliation needs in the marketing team.",
-      "Develop multi-touch attribution models to optimize marketing efforts across channels.",
-      "Data mining, making sense disparate or converged datasets and transforming them into compelling stories.",
-      "Set up campaign analysis SOP and deliver rich insights for the marketeers and business stakeholders. Automated campaign analysis process that successfully reduced operational efforts and time consumption by 70%.",
-      "Building user-focused reports and dashboards using Tableau and Holistic.io to provide daily business/campaign insights and reporting.",
-      "Convert data into actionable insights. Work with vertical leads(GrabFood, GrabPay, GrabCar) to ensure alignment of user segmentation and targeting with strategic objectives.",
+      "Leading analytic function in Grab Marketing Malaysia, the marketing team's go-to person for data questions and data reconciliation needs.",
+      "Data mining, making sense of disparate or converged datasets and transforming them into compelling stories.",
+      "Set up campaign analysis SOP to provide valuable insights to the business stakeholders. Automated campaign analysis process and reduce operational efforts and time consumption by 70%.",
+      "Building user-focused reports and dashboards using Tableau, Holistic.io, and other data tools to provide daily business/campaign insights and reporting.",
     ],
   },
   {
@@ -56,7 +79,7 @@ const jobs = [
       "Identified actionable insights and business funnels through customers clustering analysis.",
     ],
   },
-  {
+  /*{
     id: 5,
     order: 1,
     title: "Google Ads Specialist",
@@ -67,6 +90,6 @@ const jobs = [
       "Implement different optimization techniques, components including but not limited to - average CPC, Cost/Conv, Ad Copy, improve market share, Remarketing and Upselling.",
       "Analyze account performance with Google AdWords and Google Analytics reports and perform optimization.",
     ],
-  },
+  }, */
 ];
 export default jobs;
