@@ -1,3 +1,3 @@
-# personal-cv1
+# personal-html-website
 
-It's my first personal cv website I created with pure HTML and CSS as part of my journey to learn more about web development.
+It's my first personal website I created with pure HTML and CSS as part of my journey to learn more about web development.
